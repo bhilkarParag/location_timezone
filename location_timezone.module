@@ -1,0 +1,23 @@
+<?php
+
+/**
+ * @file
+ * Handle timezone functionality.
+ */
+
+/**
+ * Implements hook_theme().
+ *
+ * Define custom template for rendering the Country, City and timezone.
+ */
+function location_timezone_theme($existing, $type, $theme, $path) {
+  return [
+    'location_timezone_block' => [
+      'variables' => [
+        'country' => NULL,
+        'city' => NULL,
+        'timezone' => NULL,
+      ],
+    ],
+  ];
+}

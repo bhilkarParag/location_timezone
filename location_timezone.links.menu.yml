@@ -1,0 +1,6 @@
+location_timezone.admin_settings:
+  title: 'Configure Location and Timezone'
+  description: 'Configure the settings of loctaion and timezone.'
+  parent: system.admin_config_regional
+  route_name: location_timezone.admin_settings
+  weight: 100

@@ -1,0 +1,15 @@
+{#
+/**
+ * @file
+ * default theme implementation for the task.
+ *
+ * Available variables:
+ * - country: The name of the contry.
+ * - city: The name of the city.
+ * - timezone: The timezone selected.
+ */
+#}
+{% if (country and city) %}
+{{ timezone }}
+{{ "\n Time in" | nl2br }} {{ city }}, {{ country }}
+{% endif %}

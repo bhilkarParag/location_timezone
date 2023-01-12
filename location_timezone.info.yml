@@ -1,0 +1,7 @@
+name: 'Location and Timezone'
+type: module
+description: 'Add a block to display the Location and its time on the selection of timezone.'
+version: 1.0
+core_version_requirement: ^8.9 || ^9
+package: Custom
+configure: location_timezone.admin_settings

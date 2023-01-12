@@ -1,0 +1,4 @@
+services:
+  location_timezone.timezone:
+    class: Drupal\location_timezone\LocationTimezoneService
+    arguments: ['@config.factory']
